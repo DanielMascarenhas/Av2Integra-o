@@ -4,7 +4,12 @@ exports.funcHello = async (req, res) => {
   res.send("Hello World!");
 };
 
-exports.funcGetUsers = userServ.getAllUsers;
+exports.funcGetTasks = userServ.getAllTasks;
 
-exports.funcGetUserId = userServ.getTaskById;
+exports.funcGetTaskId = userServ.getTaskById;
+
+exports.funcPostTask = userServ.postTask;
+
+exports.funcDeleteTask = userServ.DeleteTask;
+
 
